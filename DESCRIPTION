@@ -1,0 +1,12 @@
+Package: kaps
+Title: K-Adaptive Partitioning for Survival data
+Version: 0.9.24
+Date: 2013-11-10
+Author: Soo-Heang Eo and HyungJun Cho
+Maintainer: Soo-Heang Eo <hanansh@korea.ac.kr>
+Description: This package provides some routines to conduct the K-adaptive parititioning (kaps) algorithm for survival data, with the application to SEER (Surveillance Epidemiology and End Results). A function kaps is an implementation version of our algorithm kaps which provides minimax based partitioing rules based on the log-rank test. 
+License: GPL-3
+LazyData: yes
+URL: http://statlab.korea.ac.kr/kaps
+Depends: R (>= 3.0.0), methods, survival, Formula, coin
+Suggests: foreach, doMC, locfit

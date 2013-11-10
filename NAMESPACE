@@ -1,0 +1,10 @@
+export(kaps.control, count.mindat, kaps, kaps.fit, kaps.CV, kaps.boot, kaps.perm, kaps.test, km.curve, kapsNews, pairwise.logrank.test)
+import(methods)
+import(graphics)
+import(Formula)
+import(survival)
+import(coin)
+#import(locfit)
+## S4 class
+exportClasses(kaps)
+exportMethods(print, show, plot, predict, summary, update) 
